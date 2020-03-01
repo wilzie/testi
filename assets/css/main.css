@@ -59,6 +59,10 @@ li2 {
 	color: lemonchiffon;
 }
 
+#blogikuva
+{
+	max-width: 80%;
+}
 p2{
 	font-size: 0.6rem;
 	color: salmon;
