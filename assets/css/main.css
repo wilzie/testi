@@ -64,6 +64,11 @@ li2 {
 	max-width: 80%;
 }
 
+#minikuva
+{
+	display: inline-block;
+}
+
 p2{
 	font-size: 0.6rem;
 	color: salmon;
