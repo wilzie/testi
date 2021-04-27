@@ -63,6 +63,13 @@ li2 {
 {
 	max-width: 80%;
 }
+
+#minikuva
+{
+	max-height: 10%;
+	max-width: 10%;
+}
+
 p2{
 	font-size: 0.6rem;
 	color: salmon;
