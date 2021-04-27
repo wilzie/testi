@@ -66,7 +66,15 @@ li2 {
 
 #minikuva
 {
+	display: block;
+	vertical-align: bottom;
+	width: 75%;
+}
+
+#minilista
+{
 	display: inline-block;
+
 }
 
 p2{
