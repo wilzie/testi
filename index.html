@@ -33,11 +33,43 @@
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
+						<!---
 						<ul id="minikuvat">
 							<li id="minilista"> <img src="images/enberglogo.png" alt="" width="20%" height="30%" /> </li>
 							<li id="minilista"> <img src="images/decenslogo.png" alt="" width="20%" height="30%"/> </li>
 							<li id="minilista"> <img src="images/puhtilogo.png" alt="" width="20%" height="30%"/> </li>
 						</ul>
+						--->
+
+						<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+						<div class="row">
+  							<div class="column">
+    							<img src="images/enberglogo.png" alt="" style="width:100%">
+ 								 </div>
+  							<div class="column">
+    							<img src="images/decenslogo.png" alt="" style="width:100%">
+  								</div>
+  							<div class="column">
+    							<img src="images/puhtilogo.png" alt="" style="width:100%">
+  							</div>
+						</div>
 
 					</header>
 
